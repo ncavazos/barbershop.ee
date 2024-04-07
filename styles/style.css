@@ -82,7 +82,7 @@ p {
     padding: 30px;
     padding-bottom: 10px;
     width: 60%;
-    font-size: 26px;
+    font-size: 20px;
   }
 
   /* Menu */
@@ -126,14 +126,31 @@ p {
   padding-left: 20px;
 }
 
+.locationtxt {
+  font-size: 20px;
+}
 .location {
   display: flex;
   padding-top: 10px;
+}
+
+.mapbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .mapimg {
   width: 300px;
 }
 
+.mapimg {
+  width: 300px;
+}
+.map {
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+}
 
 .bar {
   background-color: #000000;
