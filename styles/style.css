@@ -117,19 +117,32 @@ p {
     justify-content: center;
   }
 
+
 /* Hours */
 .hours {
   display: flex;
-  padding-top:40px;
+  padding-top:30px;
 }
 
-.hours p {
-  padding-left: 20px;
+.hoursbox {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding-left: 30px;
 }
 
 .hoursimg {
-  width: 1000px
+width:150px;
 }
+
+.hourstxt {
+  font-size: 20px;
+}
+
+
+
+/* Location */
 
 .locationtxt {
   font-size: 20px;
@@ -148,9 +161,6 @@ p {
   width: 300px;
 }
 
-.mapimg {
-  width: 300px;
-}
 .map {
   width: 75px;
   height: 75px;
