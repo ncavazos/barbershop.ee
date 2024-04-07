@@ -146,6 +146,7 @@ width:150px;
 
 .locationtxt {
   font-size: 20px;
+  padding: 10px;
 }
 .location {
   display: flex;
