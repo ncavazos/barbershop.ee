@@ -144,28 +144,33 @@ width:150px;
 
 /* Location */
 
-.locationtxt {
-  font-size: 20px;
-  padding: 10px;
-}
 .location {
   display: flex;
   padding-top: 10px;
 }
+
+.mapimg {
+  width: 300px;
+}
+
 
 .mapbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.mapimg {
-  width: 300px;
+.locationtxt {
+  font-size: 20px;
+  padding: 10px;
+  padding-bottom: 0px;
 }
 
 .map {
   width: 75px;
   height: 75px;
-  padding: 10px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 0px;
 }
 
 .bar {
