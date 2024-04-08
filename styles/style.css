@@ -62,6 +62,7 @@ p {
     position: relative;
     display: flex;
     z-index: 2;
+    width: 100%;
   }
 
   .logo p {
@@ -103,6 +104,7 @@ p {
   .menu-text1 {
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
   }
 
 
@@ -126,6 +128,7 @@ p {
 .hours {
   display: flex;
   padding-top:30px;
+  justify-content: center;
 }
 
 .hoursbox {
@@ -133,11 +136,13 @@ p {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  padding-left: 30px;
+  padding: 50px;
+  margin: 10px;
 }
 
 .hoursimg {
-width:150px;
+width: 100%;
+padding-left: 0px;
 }
 
 .hourstxt {
@@ -184,10 +189,8 @@ width:150px;
   margin: 0px;
 }
 
-.hoursimg {
-  width: 290px;
-  padding-left: 100px;
-}
+
+/* Reviews */
 
 .reviews {
   padding-top: 10px;
@@ -279,34 +282,111 @@ width:150px;
 }
 
 /* Menu */
-.menu-1 {
+
+  .menu {
+    padding: 30px;
+    padding-bottom: 10px;
+    width: 60%;
+    font-size: 20px;
+  }
+
+  .menuimg {
+    box-shadow: 5px -5px 0px black;
+  }
+
+  .menu-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-1 img {
+    width: 150px;
+    margin: auto;
+  }
+
+  .menu-text1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+
+  .menu-2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-2 img {
+    width: 150px;
+    margin: auto;
+  }
+
+  .menu-text2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Hours */
+  .hours {
+    display: flex;
+    padding-top:30px;
+  }
+
+  .hoursbox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-left: 30px;
+  }
+
+  .hoursimg {
+  width:150px;
+  padding: 0px;
+  }
+
+  .hourstxt {
+    font-size: 20px;
+  }
+
+/* Location */
+
+.location {
   display: flex;
+  padding-top: 10px;
+  width: 100%;
 }
 
-.menu-1 img {
-  width: 150px;
-  align-content: center;
+.mapimg {
+  width: 100%;
+}
+
+
+.mapbox {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
-
-.menu-text1 {
-  display: flex;
-  padding-left: 250px;
+.locationtxt {
+  font-size: 20px;
+  padding: 10px;
+  padding-bottom: 0px;
 }
 
-.menu-2 {
-  display: flex;
+.map {
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 0px;
 }
 
-.menu-2 img {
-  width: 150px;
-  align-content: center;
-  justify-conter: center;
+.reviews {
+  padding-top: 10px;
 }
 
-.menu-text2 {
-  display: flex;
-  padding-left: 250px;
+.reviews img {
+  width: 100%;
 }
 
 }
